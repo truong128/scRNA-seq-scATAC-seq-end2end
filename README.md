@@ -1,12 +1,11 @@
-# scRNA-seq-scATAC-seq-end2end
+# scRNA-scATAC-seq_end2end
 
 ![Single-cell RNA-seq and single-cell ATAC-seq](docs/banner.png)
 
-Suggested repository name: **scRNA-seq-scATAC-seq-end2end**
 
 This is an end-to-end full pipeline for single-cell RNA-seq together with single-cell ATAC-seq. The worked example is GEO series [GSE274934](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274934), ALK-positive and wild-type lung adenocarcinoma. RNA and ATAC are separate single-cell libraries from the same donors. The two assays do not share cells, so there is no same-cell embedding and no peak-to-gene link.
 
-**Citation:** Truong Nguyen, CUNY School of Medicine.
+**Truong Nguyen, CUNY School of Medicine.**
 
 ## What this run contains
 
