@@ -1,0 +1,8 @@
+work/
+results/
+.nextflow*/
+*.log
+*.tar
+*.fastq.gz
+*.h5
+*.h5ad

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite this pipeline as Truong Nguyen, CUNY School of Medicine."
+title: "scRNA-seq and scATAC-seq end-to-end full pipeline"
+type: software
+authors:
+  - family-names: Nguyen
+    given-names: Truong
+    affiliation: CUNY School of Medicine
+repository-code: "https://github.com/truong128/scRNA-seq-scATAC-seq-end2end"
+date-released: 2026-11-13
+preferred-citation:
+  type: software
+  title: "scRNA-seq and scATAC-seq end-to-end full pipeline"
+  authors:
+    - family-names: Nguyen
+      given-names: Truong
+      affiliation: CUNY School of Medicine
+  year: 2026

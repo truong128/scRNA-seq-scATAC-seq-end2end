@@ -1,0 +1,4 @@
+"celltype","reason","donors"
+"NK_TCRpos_ambiguous","TCR-ambiguous label is not a confirmed cell type, so it is not tested","ALK_positive_LUAD=4; WT_LUAD=5"
+"Unresolved","Unresolved is not a cell type, so it is not tested","ALK_positive_LUAD=4; WT_LUAD=5"
+"B_cells_TCRpos_ambiguous","TCR-ambiguous label is not a confirmed cell type, so it is not tested","ALK_positive_LUAD=0; WT_LUAD=3"

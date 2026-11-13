@@ -1,0 +1,13 @@
+celltype,tested_genes,FDR_0_05,contrast
+B_cells,9422,0,WT_LUAD vs ALK_positive_LUAD
+CD4_T,11373,0,WT_LUAD vs ALK_positive_LUAD
+CD8_T,10529,0,WT_LUAD vs ALK_positive_LUAD
+DC,10081,0,WT_LUAD vs ALK_positive_LUAD
+Endothelial,9162,0,WT_LUAD vs ALK_positive_LUAD
+Epithelial,16124,0,WT_LUAD vs ALK_positive_LUAD
+Fibroblasts,9704,0,WT_LUAD vs ALK_positive_LUAD
+Macrophages,13440,0,WT_LUAD vs ALK_positive_LUAD
+Mast,5458,0,WT_LUAD vs ALK_positive_LUAD
+Monocytes,8850,0,WT_LUAD vs ALK_positive_LUAD
+Plasma,6419,0,WT_LUAD vs ALK_positive_LUAD
+pDC,4250,0,WT_LUAD vs ALK_positive_LUAD

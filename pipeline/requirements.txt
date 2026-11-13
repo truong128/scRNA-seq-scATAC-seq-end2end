@@ -1,0 +1,17 @@
+numpy>=1.26,<2.3
+scipy>=1.12,<1.15
+pandas>=2.1,<2.4
+scanpy>=1.11,<1.12
+anndata>=0.11,<0.13
+h5py>=3.10,<4
+matplotlib>=3.8,<3.12
+scikit-learn>=1.4,<1.8
+statsmodels>=0.14,<0.16
+scrublet>=0.2.3,<0.3
+python-igraph>=0.11,<1
+leidenalg>=0.10,<0.12
+networkx>=3.2,<4
+pyyaml>=6,<7
+requests>=2.31,<3
+umap-learn>=0.5.7,<0.6
+pynndescent>=0.5.12,<0.6

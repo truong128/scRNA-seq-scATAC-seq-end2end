@@ -1,0 +1,26 @@
+project: ALK_LUAD_10x_Pilot
+reference: GEO_GSE274934
+organism: human
+assay: Chromium_5prime_GEX
+exploratory_only: true
+scoring:
+  min_genes_present: 2
+  immune_modules:
+    Cytotoxicity: [PRF1, GZMB, GZMA, NKG7, GNLY]
+    Exhaustion_associated: [PDCD1, LAG3, HAVCR2, TIGIT, TOX, ENTPD1, CXCL13]
+    Treg_associated: [FOXP3, IL2RA, CTLA4, IKZF2, TIGIT]
+    IFNG_response: [STAT1, IRF1, GBP1, CXCL9, CXCL10, IDO1, HLA-DRA]
+    Antigen_presentation: [HLA-A, HLA-B, HLA-C, B2M, TAP1, TAP2, NLRC5]
+    Myeloid_SPP1: [SPP1, APOE, TREM2, LPL]
+    Hypoxia: [VEGFA, CA9, SLC2A1, LDHA, PDK1]
+    Proliferation: [MKI67, TOP2A, STMN1, PCNA]
+    Stress: [FOS, JUN, JUNB, ATF3, DUSP1, HSPA1A]
+atac:
+  min_fragments: 1000
+  min_fraction_in_peaks: 0.20
+  min_fraction_tss_fragments: 0.15
+  promoter_window_bp: 2000
+  lsi_components: 30
+  drop_lsi1_if_depth_correlation: 0.5
+  leiden_resolution: 0.6
+  gene_types: [protein_coding, lncRNA]

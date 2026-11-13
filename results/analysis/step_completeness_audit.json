@@ -1,0 +1,377 @@
+[
+  {
+    "step": "AL02:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 1 doublets vs ~581 expected at 6%; score distribution not bimodal (median 0.042, p99 0.289, max 0.608). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL02:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL03:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~777 expected at 6%; score distribution not bimodal (median 0.054, p99 0.252, max 0.517). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL03:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL04:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~645 expected at 6%; score distribution not bimodal (median 0.059, p99 0.299, max 0.551). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL04:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL05:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~497 expected at 6%; score distribution not bimodal (median 0.054, p99 0.288, max 0.515). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL05:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL06:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 1 doublets vs ~202 expected at 6%; score distribution not bimodal (median 0.056, p99 0.221, max 0.581). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL06:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL08:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~779 expected at 6%; score distribution not bimodal (median 0.045, p99 0.320, max 0.574). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL08:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL10:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~763 expected at 6%; score distribution not bimodal (median 0.041, p99 0.316, max 0.640). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL10:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL11:doublet",
+    "status": "LOW_CONFIDENCE",
+    "detail": "Scrublet predicted only 0 doublets vs ~914 expected at 6%; score distribution not bimodal (median 0.036, p99 0.301, max 0.492). Doublet removal effectively NOT applied; T/NK doublets cannot be excluded. Use scDblFinder or a manual threshold."
+  },
+  {
+    "step": "AL11:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "AL12:doublet",
+    "status": "COMPLETE",
+    "detail": "Scrublet predicted 515 doublets"
+  },
+  {
+    "step": "AL12:ambient",
+    "status": "MEASURED_ONLY",
+    "detail": "Unfiltered droplet profile, no subtraction performed"
+  },
+  {
+    "step": "QC",
+    "status": "COMPLETE",
+    "detail": "Per-sample QC and transparent retention metrics"
+  },
+  {
+    "step": "normalization_clustering",
+    "status": "COMPLETE",
+    "detail": "Library-size normalized log1p; HVGs; PCA 30; Leiden 0.6"
+  },
+  {
+    "step": "integration",
+    "status": "NOT_APPLIED",
+    "detail": "No forced batch correction. Inspect clusters that are dominated by one donor before comparing conditions."
+  },
+  {
+    "step": "AL02:tcr",
+    "status": "COMPLETE",
+    "detail": "2662 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL03:tcr",
+    "status": "COMPLETE",
+    "detail": "3304 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL04:tcr",
+    "status": "COMPLETE",
+    "detail": "5671 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL05:tcr",
+    "status": "COMPLETE",
+    "detail": "3458 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL06:tcr",
+    "status": "COMPLETE",
+    "detail": "293 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL08:tcr",
+    "status": "COMPLETE",
+    "detail": "350 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL10:tcr",
+    "status": "COMPLETE",
+    "detail": "2518 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL11:tcr",
+    "status": "COMPLETE",
+    "detail": "2969 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "AL12:tcr",
+    "status": "COMPLETE",
+    "detail": "2170 matched QC cells with TCR contigs"
+  },
+  {
+    "step": "TCR_clonotypes",
+    "status": "COMPLETE",
+    "detail": "Joined TCR annotations by barcode and sample; clonal frequencies"
+  },
+  {
+    "step": "marker_based_annotation",
+    "status": "EXPLORATORY",
+    "detail": "Putative cluster labels from canonical markers; review manually and validate with reference atlas"
+  },
+  {
+    "step": "tcr_guided_annotation",
+    "status": "RELABELLED",
+    "detail": "2 cluster(s) (5132 cells) labelled non-T by markers but >= 20% TCR+: {'9': 'NK_TCRpos_ambiguous', '13': 'B_cells_TCRpos_ambiguous'}. Need reference/CITE-seq/doublet review; see tcr_guided_annotation_check.csv"
+  },
+  {
+    "step": "cluster_markers",
+    "status": "COMPLETE",
+    "detail": "Wilcoxon markers for annotation; do not interpret as between-patient DE"
+  },
+  {
+    "step": "subcluster:T_lineage",
+    "status": "EXPLORATORY",
+    "detail": "22309 cells clustered; subclusters not yet biologically annotated"
+  },
+  {
+    "step": "subcluster:Myeloid",
+    "status": "EXPLORATORY",
+    "detail": "25480 cells clustered; subclusters not yet biologically annotated"
+  },
+  {
+    "step": "subcluster:B_lineage",
+    "status": "EXPLORATORY",
+    "detail": "11092 cells clustered; subclusters not yet biologically annotated"
+  },
+  {
+    "step": "cell_abundance",
+    "status": "DESCRIPTIVE_ONLY",
+    "detail": "Per-sample proportions only. No compositional statistical test was run."
+  },
+  {
+    "step": "immune_states",
+    "status": "EXPLORATORY",
+    "detail": "9 RNA expression programs. No functional exhaustion/protein proof"
+  },
+  {
+    "step": "pseudobulk",
+    "status": "COMPLETE",
+    "detail": "Raw UMI sums; suitable as input to edgeR/DESeq2 after design validation"
+  },
+  {
+    "step": "between_condition_DE",
+    "status": "REQUIRES_EDGER_MODULE",
+    "detail": "Donors per condition {'ALK_positive_LUAD': 4, 'WT_LUAD': 5}. The edgeR script can run a donor-level two-group test. Cell-type labels are marker-based and unvalidated, so those FDRs are not confirmed cell-type biology."
+  },
+  {
+    "step": "cell_communication",
+    "status": "EXPLORATORY",
+    "detail": "4457 candidate sample-level pairs (computed per sample, not pooled across donors; see n_samples_supporting). Unresolved and TCRpos_ambiguous labels are excluded before pairing. Expression heuristic, not CellChat/LIANA/NicheNet inference"
+  },
+  {
+    "step": "T_cell_pseudotime",
+    "status": "EXPLORATORY",
+    "detail": "Rooted at highest detected TCF7 cell. Donor composition: AL04=24.6%, AL05=14.5%, AL03=13.5%, AL08=11.9%, AL11=11.8%, AL10=8.1%, AL12=7.6%, AL02=6.8%, AL06=1.2%"
+  },
+  {
+    "step": "target_prioritization",
+    "status": "EXPLORATORY",
+    "detail": "Expression-only candidate table. Unresolved and TCRpos_ambiguous labels are excluded. No causal, druggability, safety or therapeutic validation"
+  },
+  {
+    "step": "malignant_CNV_classification",
+    "status": "NOT_RUN",
+    "detail": "Require valid gene coordinate reference and appropriate normal baseline; epithelial markers are not malignancy proof"
+  },
+  {
+    "step": "ambient_RNA_correction",
+    "status": "NOT_RUN",
+    "detail": "Unfiltered background assessed; correction requires validated SoupX/CellBender model"
+  },
+  {
+    "step": "reference_annotation",
+    "status": "NOT_RUN",
+    "detail": "Marker-based preliminary annotations only; external cancer-specific references required"
+  },
+  {
+    "step": "TF_regulons_SCENIC",
+    "status": "NOT_RUN",
+    "detail": "Transcription factor expression is not TF activity; validated regulon reference required"
+  },
+  {
+    "step": "NicheNet_LIANA_CellChat",
+    "status": "NOT_RUN",
+    "detail": "Only candidate ligand/receptor co-expression module executed; full inference not executed"
+  },
+  {
+    "step": "BCR_CITEseq",
+    "status": "NOT_AVAILABLE",
+    "detail": "No BCR or ADT files were provided"
+  },
+  {
+    "step": "spatial_immune_exclusion",
+    "status": "NOT_AVAILABLE",
+    "detail": "No spatial coordinates with dissociated tumor scRNA-seq"
+  },
+  {
+    "step": "response_ML_survival",
+    "status": "NOT_TESTABLE",
+    "detail": "No responder labels or survival outcomes are in the sample sheet"
+  },
+  {
+    "step": "external_validation",
+    "status": "NOT_RUN",
+    "detail": "Needs independent cohort and clinical hypothesis"
+  },
+  {
+    "step": "drug_discovery",
+    "status": "NOT_RUN",
+    "detail": "Target expression hypotheses only, no structure screening or functional evidence"
+  },
+  {
+    "step": "experimental_validation",
+    "status": "NOT_AVAILABLE",
+    "detail": "Requires wet lab assays"
+  },
+  {
+    "step": "ATAC_gene_annotation",
+    "status": "COMPLETE",
+    "detail": "38841 genes, longest-transcript TSS, +/- 2000 bp, GENCODE file gencode.v44.basic.annotation.gtf.gz, types ('protein_coding', 'lncRNA')"
+  },
+  {
+    "step": "AL05:ATAC_QC",
+    "status": "COMPLETE",
+    "detail": "8849/8872 cells kept. Filters: fragments>=1000, fraction in peaks>=0.2, fraction of fragments overlapping the Cell Ranger TSS region>=0.15. This fraction is not a TSS enrichment score."
+  },
+  {
+    "step": "AL05:ATAC_LSI",
+    "status": "COMPLETE",
+    "detail": "Binarized TF-IDF LSI. {'lsi1_depth_spearman': -0.7494, 'lsi1_dropped': True, 'peaks_used': 169166, 'components_used': 29}. Leiden 0.6. LSI1 dropped when |Spearman| with log10(fragments) >= 0.5."
+  },
+  {
+    "step": "AL05:ATAC_gene_activity",
+    "status": "COMPLETE",
+    "detail": "38841 genes, 40139 peak-gene window overlaps. A peak is counted for every gene it overlaps."
+  },
+  {
+    "step": "AL08:ATAC_QC",
+    "status": "COMPLETE",
+    "detail": "2611/4116 cells kept. Filters: fragments>=1000, fraction in peaks>=0.2, fraction of fragments overlapping the Cell Ranger TSS region>=0.15. This fraction is not a TSS enrichment score."
+  },
+  {
+    "step": "AL08:ATAC_LSI",
+    "status": "COMPLETE",
+    "detail": "Binarized TF-IDF LSI. {'lsi1_depth_spearman': -0.5943, 'lsi1_dropped': True, 'peaks_used': 42167, 'components_used': 29}. Leiden 0.6. LSI1 dropped when |Spearman| with log10(fragments) >= 0.5."
+  },
+  {
+    "step": "AL08:ATAC_gene_activity",
+    "status": "COMPLETE",
+    "detail": "38841 genes, 23462 peak-gene window overlaps. A peak is counted for every gene it overlaps."
+  },
+  {
+    "step": "AL10:ATAC_QC",
+    "status": "COMPLETE",
+    "detail": "8309/8389 cells kept. Filters: fragments>=1000, fraction in peaks>=0.2, fraction of fragments overlapping the Cell Ranger TSS region>=0.15. This fraction is not a TSS enrichment score."
+  },
+  {
+    "step": "AL10:ATAC_LSI",
+    "status": "COMPLETE",
+    "detail": "Binarized TF-IDF LSI. {'lsi1_depth_spearman': -0.5627, 'lsi1_dropped': True, 'peaks_used': 172114, 'components_used': 29}. Leiden 0.6. LSI1 dropped when |Spearman| with log10(fragments) >= 0.5."
+  },
+  {
+    "step": "AL10:ATAC_gene_activity",
+    "status": "COMPLETE",
+    "detail": "38841 genes, 42465 peak-gene window overlaps. A peak is counted for every gene it overlaps."
+  },
+  {
+    "step": "AL11:ATAC_QC",
+    "status": "COMPLETE",
+    "detail": "1992/2075 cells kept. Filters: fragments>=1000, fraction in peaks>=0.2, fraction of fragments overlapping the Cell Ranger TSS region>=0.15. This fraction is not a TSS enrichment score."
+  },
+  {
+    "step": "AL11:ATAC_LSI",
+    "status": "COMPLETE",
+    "detail": "Binarized TF-IDF LSI. {'lsi1_depth_spearman': -0.3707, 'lsi1_dropped': False, 'peaks_used': 81002, 'components_used': 30}. Leiden 0.6. LSI1 dropped when |Spearman| with log10(fragments) >= 0.5."
+  },
+  {
+    "step": "AL11:ATAC_gene_activity",
+    "status": "COMPLETE",
+    "detail": "38841 genes, 29152 peak-gene window overlaps. A peak is counted for every gene it overlaps."
+  },
+  {
+    "step": "AL12:ATAC_QC",
+    "status": "COMPLETE",
+    "detail": "2951/5048 cells kept. Filters: fragments>=1000, fraction in peaks>=0.2, fraction of fragments overlapping the Cell Ranger TSS region>=0.15. This fraction is not a TSS enrichment score."
+  },
+  {
+    "step": "AL12:ATAC_LSI",
+    "status": "COMPLETE",
+    "detail": "Binarized TF-IDF LSI. {'lsi1_depth_spearman': -0.2542, 'lsi1_dropped': False, 'peaks_used': 33360, 'components_used': 30}. Leiden 0.6. LSI1 dropped when |Spearman| with log10(fragments) >= 0.5."
+  },
+  {
+    "step": "AL12:ATAC_gene_activity",
+    "status": "COMPLETE",
+    "detail": "38841 genes, 21574 peak-gene window overlaps. A peak is counted for every gene it overlaps."
+  },
+  {
+    "step": "ATAC_RNA_cell_integration",
+    "status": "NOT_APPLICABLE",
+    "detail": "Separate libraries. The largest shared-barcode fraction is 0.0004. No WNN, MultiVI, or same-cell peak-to-gene link was run. See ATAC_RNA_barcode_overlap.csv."
+  },
+  {
+    "step": "ATAC_between_condition",
+    "status": "NOT_TESTABLE",
+    "detail": "No differential accessibility test. ATAC donors by tumor type: {'ALK_positive_LUAD': 3, 'WT_LUAD': 2}. Need >=3 donors in every group. RNA can still be tested if RNA replication is sufficient."
+  },
+  {
+    "step": "ATAC_joint_embedding",
+    "status": "EXPLORATORY",
+    "detail": "24712 cells, 29090 genes after the min-20-cells filter. 2/8 clusters are >90% one sample. No batch correction was applied."
+  },
+  {
+    "step": "ATAC_RNA_sample_integration",
+    "status": "SAMPLE_LEVEL_ONLY",
+    "detail": "Spearman of mean RNA expression vs mean gene activity within each donor that has both assays. Cells are not paired. Composition differs between the RNA and ATAC libraries. Values: AL05=0.5379, AL08=0.3802, AL10=0.5572, AL11=0.4132, AL12=0.3501"
+  }
+]

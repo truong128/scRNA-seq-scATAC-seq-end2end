@@ -1,0 +1,6 @@
+sample_id,condition,n_genes,spearman_rna_vs_gene_activity,rna_cells,atac_cells
+AL05,ALK_positive_LUAD,16749,0.5379,8279,8849
+AL08,WT_LUAD,13313,0.3802,12981,2611
+AL10,ALK_positive_LUAD,17009,0.5572,12713,8309
+AL11,WT_LUAD,15022,0.4132,15227,1992
+AL12,ALK_positive_LUAD,12519,0.3501,11082,2951

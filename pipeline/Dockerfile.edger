@@ -1,0 +1,2 @@
+FROM bioconductor/bioconductor_docker:RELEASE_3_21
+RUN R -q -e 'BiocManager::install("edgeR", ask=FALSE, update=FALSE)'

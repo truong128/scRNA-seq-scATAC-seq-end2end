@@ -1,0 +1,34 @@
+{
+  "pipeline": "scRNA-seq-scATAC-seq-end2end",
+  "input_samples": [
+    "AL02",
+    "AL03",
+    "AL04",
+    "AL05",
+    "AL06",
+    "AL08",
+    "AL10",
+    "AL11",
+    "AL12"
+  ],
+  "source": "Sample sheet passed with --samples. For this cohort the tumor-type column is the GEO characteristic tumor type.",
+  "scanpy_version": "1.11.5",
+  "python": "3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:41:22) [Clang 13.0.1 ]",
+  "parameters": {
+    "samples": "gse274934_cohort.csv",
+    "matrix_dir": ".",
+    "config": "analysis.yaml",
+    "markers": "cell_markers.csv",
+    "ligand_receptor": "ligand_receptor.csv",
+    "outdir": "analysis",
+    "min_genes": 200,
+    "max_genes": 9000,
+    "max_mt": 25.0,
+    "n_pcs": 30,
+    "resolution": 0.6,
+    "run_scrublet": "true",
+    "gene_annotation": "gencode.v44.basic.annotation.gtf.gz"
+  },
+  "seed": 1234,
+  "caution": "Exploratory single-cell atlas, not publication-validated claims"
+}

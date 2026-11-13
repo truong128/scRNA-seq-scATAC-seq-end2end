@@ -1,0 +1,6 @@
+sample_id,rna_qc_cells,atac_matrix_cells,shared_barcodes,shared_fraction_of_smaller
+AL05,8279,8872,2,0.000242
+AL08,12981,4116,1,0.000243
+AL10,12713,8389,3,0.000358
+AL11,15227,2075,0,0.0
+AL12,11082,5048,1,0.000198

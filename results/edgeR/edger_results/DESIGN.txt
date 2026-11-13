@@ -1,0 +1,8 @@
+Unpaired donor-level edgeR quasi-likelihood F test. One library per donor.
+Samples from the same donor are not treated as replicates.
+Condition factor levels, sorted: ALK_positive_LUAD, WT_LUAD
+Contrast, coefficient 2: WT_LUAD vs ALK_positive_LUAD
+A positive logFC means higher in WT_LUAD than in ALK_positive_LUAD.
+Cell-type labels are marker-based and unvalidated. An FDR is not confirmed cell-type biology.
+FDR_0_05 = 0 means the test ran and no gene passed FDR 0.05.
+celltypes_not_tested.csv lists labels that did not meet the donor or count filters.

@@ -1,0 +1,10 @@
+donor,tumor_type,single_cell_RNA_seq,TCR,single_cell_ATAC_seq,GEO_RNA,GEO_ATAC
+AL02,WT LUAD,yes,yes,no,GSM8462125,
+AL03,WT LUAD,yes,yes,no,GSM8462126,
+AL04,WT LUAD,yes,yes,no,GSM8462127,
+AL05,ALK-positive LUAD,yes,yes,yes,GSM8462128,GSM8462143
+AL06,ALK-positive LUAD,yes,yes,no,GSM8462129,
+AL08,WT LUAD,yes,yes,yes,GSM8462130,GSM8462144
+AL10,ALK-positive LUAD,yes,yes,yes,GSM8462131,GSM8462145
+AL11,WT LUAD,yes,yes,yes,GSM8462132,GSM8462146
+AL12,ALK-positive LUAD,yes,yes,yes,GSM8462133,GSM8462147
